@@ -1,5 +1,5 @@
 package br.com.dio.innovationone;
 
-public class Banco {
+public class Cliente {
     public String nome;
 }
