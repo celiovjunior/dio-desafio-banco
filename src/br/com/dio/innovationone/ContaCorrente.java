@@ -2,4 +2,9 @@ package br.com.dio.innovationone;
 
 public class ContaCorrente extends Conta {
 
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("EXTRATO CONTA CORRENTE");
+        super.infosComuns();
+    }
 }
